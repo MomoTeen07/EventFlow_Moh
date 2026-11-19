@@ -1,0 +1,10 @@
+line-length = 120
+target-version = "py312"
+
+
+[lint]
+extend-select = ["T20", "PT", "T100"]
+
+[lint.per-file-ignores]
+"tests/performance/locustfile.py" = ["T201"]
+
